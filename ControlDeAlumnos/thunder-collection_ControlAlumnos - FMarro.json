@@ -1,0 +1,391 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ControlAlumnos - FMarro",
+    "dateExported": "2023-02-21T04:16:16.714Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "e6989928-3df8-43b5-874c-3cd1599dcf96",
+            "name": "Profesor",
+            "containerId": "",
+            "created": "2023-02-19T02:49:14.226Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "96b29ef1-b2c0-4e74-be17-aea97a3ede89",
+            "name": "Alumno",
+            "containerId": "",
+            "created": "2023-02-20T06:28:15.418Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "455d7982-a545-4523-9341-af29f36e3edb",
+            "name": "Curso",
+            "containerId": "",
+            "created": "2023-02-20T06:28:56.538Z",
+            "sortNum": 50000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "c04cb7b4-d040-4053-a712-b130ae20b62f",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "96b29ef1-b2c0-4e74-be17-aea97a3ede89",
+            "name": "register Alum",
+            "url": "user/register/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-02-19T03:12:21.099Z",
+            "modified": "2023-02-20T06:29:04.869Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombres",
+                        "value": "Juanito"
+                    },
+                    {
+                        "name": "apellidos",
+                        "value": "Sanchez"
+                    },
+                    {
+                        "name": "carnet",
+                        "value": "2018482"
+                    },
+                    {
+                        "name": "grado",
+                        "value": "6to Perito"
+                    },
+                    {
+                        "name": "correo",
+                        "value": "jsanchez@kinal.edu.gt"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123"
+                    },
+                    {
+                        "name": "role",
+                        "value": "Alumno"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "cb3d742b-4780-4cef-bd17-d263b2d005b7",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "455d7982-a545-4523-9341-af29f36e3edb",
+            "name": "save",
+            "url": "curso/save",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-02-19T18:30:45.293Z",
+            "modified": "2023-02-21T03:35:12.982Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "materia",
+                        "value": "Ingles"
+                    },
+                    {
+                        "name": "profesor",
+                        "value": "63f42f6a315bd715881cf580"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ee42e909-3973-4725-bb74-54902798d8c5",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "96b29ef1-b2c0-4e74-be17-aea97a3ede89",
+            "name": "login Alumn",
+            "url": "user/login",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-02-20T07:03:48.780Z",
+            "modified": "2023-02-21T03:44:50.856Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "correo",
+                        "value": "jsanchez@kinal.edu.gt"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "689d30df-2307-4ee3-a56b-ae1041c7ad75",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "e6989928-3df8-43b5-874c-3cd1599dcf96",
+            "name": "register Prof",
+            "url": "user/register/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-02-19T03:00:39.485Z",
+            "modified": "2023-02-21T02:35:28.872Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombres",
+                        "value": "Fabian"
+                    },
+                    {
+                        "name": "apellidos",
+                        "value": "Marroquin"
+                    },
+                    {
+                        "name": "titulo",
+                        "value": "Ingeniero"
+                    },
+                    {
+                        "name": "correo",
+                        "value": "fmarroquin@kinal.edu.gt"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123"
+                    },
+                    {
+                        "name": "role",
+                        "value": "Profesor"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0e291589-903d-428b-bc81-b6f1d5829d5b",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "96b29ef1-b2c0-4e74-be17-aea97a3ede89",
+            "name": "Agregar Cursos",
+            "url": "user/update/63f43c0adbc91463817744bb",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-02-19T03:54:55.980Z",
+            "modified": "2023-02-21T03:36:27.582Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "clase1",
+                        "value": "63f43bdfdbc91463817744b3"
+                    },
+                    {
+                        "name": "clase2",
+                        "value": "63f43be7dbc91463817744b6"
+                    },
+                    {
+                        "name": "clase3",
+                        "value": "63f43bf0dbc91463817744b9"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e4bbec48-d323-418a-9dc0-e729d91a93bb",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "e6989928-3df8-43b5-874c-3cd1599dcf96",
+            "name": "login",
+            "url": "user/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-02-19T19:21:42.092Z",
+            "modified": "2023-02-21T02:43:33.389Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "correo",
+                        "value": "achali@kinal.edu.gt"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "889b8065-1f57-4e4f-8599-65a2971abe3f",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "96b29ef1-b2c0-4e74-be17-aea97a3ede89",
+            "name": "obtener cursos",
+            "url": "user/cursosAlum/63f43c0adbc91463817744bb",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-02-20T06:49:20.252Z",
+            "modified": "2023-02-21T03:36:47.864Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f0445905-75ba-46fe-ac91-e3271e1e03b8",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "96b29ef1-b2c0-4e74-be17-aea97a3ede89",
+            "name": "eliminar alumno",
+            "url": "user/delete/63f42f6a315bd715881cf582",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2023-02-20T07:08:25.286Z",
+            "modified": "2023-02-21T03:37:54.407Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2Y0MmY2YTMxNWJkNzE1ODgxY2Y1ODIiLCJub21icmVzIjoiRmFiaWFuIiwiYXBlbGxpZG9zIjoiTWFycm9xdWluIiwiY29ycmVvIjoiZm1hcnJvcXVpbkBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiQUxVTU5PIiwiaWF0IjoxNjc2OTUwNjY2LCJleHAiOjE2NzY5NTc4NjZ9.Y_ISR8fsd9eCY7NImnzSO0lH7tjmds2kp7-cfL--wzM\""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "27d41d05-5942-41df-80a3-70174798766d",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "96b29ef1-b2c0-4e74-be17-aea97a3ede89",
+            "name": "actualizar alumno",
+            "url": "user/updateAlumnos/63f43c0adbc91463817744bb",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2023-02-20T07:22:27.235Z",
+            "modified": "2023-02-21T04:11:20.357Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2Y0MmY2YTMxNWJkNzE1ODgxY2Y1ODAiLCJub21icmVzIjoiQW5nZWwiLCJhcGVsbGlkb3MiOiJDaGFsaSIsImNvcnJlbyI6ImFjaGFsaUBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiUFJPRkVTT1IiLCJpYXQiOjE2NzY5NTI2NjYsImV4cCI6MTY3Njk1OTg2Nn0.I1BhDXMTc_WoO_UYd1O03CjCHWU9mmkoIG9d-jRu-fU\""
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombres",
+                        "value": "Angel"
+                    },
+                    {
+                        "name": "apellidos",
+                        "value": "Xibalbasss"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "575a98ac-fdb6-4c52-a65d-d3e00e333c51",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "e6989928-3df8-43b5-874c-3cd1599dcf96",
+            "name": "cursos profe",
+            "url": "user/cursosProfe/63f42df026066f98f3a98e74",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-02-20T08:15:06.600Z",
+            "modified": "2023-02-21T02:36:48.986Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2Y0MmRmMDI2MDY2Zjk4ZjNhOThlNzQiLCJub21icmVzIjoiRmFiaWFuIiwiYXBlbGxpZG9zIjoiTWFycm9xdWluIiwiY29ycmVvIjoiZm1hcnJvcXVpbkBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiUFJPRkVTT1IiLCJpYXQiOjE2NzY5NDY5MzcsImV4cCI6MTY3Njk1NDEzN30.rNV4pYt2SBoFdt7Clz05biNt2cC-Cpf-zJg0NePFR08\""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "58f16a08-b8e9-4b64-af09-5a6e14a0efd6",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "455d7982-a545-4523-9341-af29f36e3edb",
+            "name": "delete",
+            "url": "curso/delete/63f42e8026066f98f3a98e84",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2023-02-20T08:49:10.603Z",
+            "modified": "2023-02-21T02:38:11.461Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2Y0MmRmMDI2MDY2Zjk4ZjNhOThlNzQiLCJub21icmVzIjoiRmFiaWFuIiwiYXBlbGxpZG9zIjoiTWFycm9xdWluIiwiY29ycmVvIjoiZm1hcnJvcXVpbkBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiUFJPRkVTT1IiLCJpYXQiOjE2NzY5NDY5MzcsImV4cCI6MTY3Njk1NDEzN30.rNV4pYt2SBoFdt7Clz05biNt2cC-Cpf-zJg0NePFR08\""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "271a7187-9656-4abc-b4ba-c08ed0ebc327",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "455d7982-a545-4523-9341-af29f36e3edb",
+            "name": "update curso",
+            "url": "curso/update/63f42e1826066f98f3a98e78",
+            "method": "PUT",
+            "sortNum": 140000,
+            "created": "2023-02-20T09:27:16.258Z",
+            "modified": "2023-02-21T02:37:21.966Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2M2Y0MmRmMDI2MDY2Zjk4ZjNhOThlNzQiLCJub21icmVzIjoiRmFiaWFuIiwiYXBlbGxpZG9zIjoiTWFycm9xdWluIiwiY29ycmVvIjoiZm1hcnJvcXVpbkBraW5hbC5lZHUuZ3QiLCJyb2xlIjoiUFJPRkVTT1IiLCJpYXQiOjE2NzY5NDY5MzcsImV4cCI6MTY3Njk1NDEzN30.rNV4pYt2SBoFdt7Clz05biNt2cC-Cpf-zJg0NePFR08\""
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "materia",
+                        "value": "Ingles"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "03aec530-b0f4-4581-bf8a-aec0d3ca679d",
+            "colId": "ad3f8a63-be2c-460e-8f02-f984c0b3159d",
+            "containerId": "96b29ef1-b2c0-4e74-be17-aea97a3ede89",
+            "name": "update",
+            "url": "",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2023-02-21T04:06:36.681Z",
+            "modified": "2023-02-21T04:06:36.681Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "headers": [],
+        "tests": [],
+        "options": {
+            "baseUrl": "localhost:3100/"
+        }
+    }
+}

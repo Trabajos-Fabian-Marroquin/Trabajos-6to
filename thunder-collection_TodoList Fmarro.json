@@ -1,0 +1,114 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "TodoList Fmarro",
+    "dateExported": "2023-06-16T23:19:20.813Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d36815b6-9e72-4b7e-9a60-9e95bd90f005",
+            "colId": "c70a265a-9228-47cd-bc65-df1d2b1eb9f7",
+            "containerId": "",
+            "name": "add",
+            "url": "task/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-16T19:09:36.685Z",
+            "modified": "2023-06-16T23:13:18.997Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "tucun tucun corazon"
+                    },
+                    {
+                        "name": "description",
+                        "value": "basado basado"
+                    },
+                    {
+                        "name": "date",
+                        "value": "2022/01/20"
+                    },
+                    {
+                        "name": "priority",
+                        "value": "-1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "becb61f5-fa92-4c42-9564-36302510118b",
+            "colId": "c70a265a-9228-47cd-bc65-df1d2b1eb9f7",
+            "containerId": "",
+            "name": "update",
+            "url": "task/update/648cde22aeb8c6678f498f5d",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-06-16T19:09:41.010Z",
+            "modified": "2023-06-16T23:04:53.673Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "pongalo a chambear"
+                    },
+                    {
+                        "name": "description",
+                        "value": "chambear"
+                    },
+                    {
+                        "name": "date",
+                        "value": "2023/06/18"
+                    },
+                    {
+                        "name": "priority",
+                        "value": "10"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "441203a5-6801-409f-9628-7f9941e171b0",
+            "colId": "c70a265a-9228-47cd-bc65-df1d2b1eb9f7",
+            "containerId": "",
+            "name": "delete",
+            "url": "task/delete/648cde22aeb8c6678f498f5d",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-06-16T19:09:45.474Z",
+            "modified": "2023-06-16T23:05:05.275Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b72c270f-35a4-400d-b0a1-48f43621cd93",
+            "colId": "c70a265a-9228-47cd-bc65-df1d2b1eb9f7",
+            "containerId": "",
+            "name": "get",
+            "url": "task/get",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-06-16T19:09:50.801Z",
+            "modified": "2023-06-16T19:16:11.095Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:3099/"
+        }
+    }
+}
